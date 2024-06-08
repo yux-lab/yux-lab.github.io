@@ -1,5 +1,7 @@
 site_name: yux-lab
 
+site_url: https://yux-lab.github.io/
+
 theme:
   name: material
   features:

@@ -1,1 +1,1 @@
-# yux-lab.github.io
+# yux-lab
