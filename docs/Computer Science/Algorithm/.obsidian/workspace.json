@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "71586ee6a7741902",
+    "type": "split",
+    "children": [
+      {
+        "id": "690bc12233c8e8a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eccd5a5c50c9c346",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65e81aeefe2807f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "929bb6db828b3767",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "621f7881cd57b9d7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "39d64f349efded23",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bda38b11b5887214",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7557bcfb297e1979",
+    "type": "split",
+    "children": [
+      {
+        "id": "34e318030e7aed08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0e02a3fa3ce96bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b051b1108597ada7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2f1384551de29839",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5900e0aea4ce7841",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "eccd5a5c50c9c346",
+  "lastOpenFiles": [
+    "第 3 章   数据结构/数据结构.md",
+    "第 3 章   数据结构/images/classification_phisical_structure.png",
+    "第 3 章   数据结构/images/computer_memory_location.png",
+    "第 3 章   数据结构/images/1.png",
+    "第 3 章   数据结构/images/屏幕截图 2024-06-07 164245.png",
+    "第 3 章   数据结构/images",
+    "第 3 章   数据结构/新建文件夹",
+    "Untitled.md",
+    "第 3 章   数据结构/第 3 章   数据结构.md",
+    "第 3 章   数据结构/新建 文本文档.txt",
+    "第 3 章   数据结构",
+    "新建文件夹",
+    "Home.md",
+    "第 2 章   复杂度分析/复杂度分析.md",
+    "第 2 章   复杂度分析/Untitled",
+    "第 2 章   复杂度分析/images/2.png",
+    "第 2 章   复杂度分析/images/屏幕截图 2024-06-07 163627.png",
+    "第 2 章   复杂度分析/images/1.png",
+    "第 2 章   复杂度分析/images/屏幕截图 2024-06-07 162714.png",
+    "第 2 章   复杂度分析/images",
+    "第 2 章   复杂度分析/新建文件夹",
+    "source.md",
+    "01-操作系统概述 (操作系统的历史、学习操作系统的方法).md",
+    "ebook/Operating Systems Three Easy Pieces (Remzi H. Arpaci-Dusseau etc.) (Z-Library).pdf",
+    "ebook",
+    "Source.md",
+    "Linux常用命令手册.md",
+    "notion/Weekly summary.md",
+    "notion/SSC.md",
+    "IETLS/Lesson 8 Holiday and Travel.md",
+    "IETLS/Lesson 9 Part 3 Questions.md",
+    "IETLS/Lesson 10 Part 3 Questions.md",
+    "IETLS/Lesson 7 Famous people.md",
+    "IETLS/ietls.md",
+    "IETLS/topic_images/Lesson 7 Famous people.png",
+    "IETLS/topic_images/Lesson 8 Holiday and Travel.png",
+    "create a link.md",
+    "Untitled.canvas",
+    "Untitled 1.md",
+    "Welcome.md"
+  ]
+}
