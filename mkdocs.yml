@@ -9,7 +9,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    #- toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -23,7 +23,7 @@ theme:
         icon: material/brightness-7 
         name: Switch to dark mode
       primary: teal
-      accent: purple 
+      accent: light green
     - scheme: slate 
       toggle:
         icon: material/brightness-4
