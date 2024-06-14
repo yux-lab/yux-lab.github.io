@@ -2,7 +2,7 @@
 
 结构的元素:**成员**;具有不同类型(面向对象??)
 
-## 16.1.1　结构变量的声明
+### 16.1.1　结构变量的声明
 ```c
 //仓库零件:编号、名称、现有数量
 struct { 
@@ -38,7 +38,7 @@ int number; char sex;
 } employee1, employee2;
 ```
 
-## 16.1.2　结构变量的初始化
+### 16.1.2　结构变量的初始化
 ```c
 struct { 
 int number; 
@@ -51,7 +51,7 @@ int on_hand;
 
 ![](images/Pasted%20image%2020240610070854.png)
 
-## 16.1.3　指定初始化
+### 16.1.3　指定初始化
 ```c
 //原始;按结构成员的顺序
 {528， "Disk drive", 10}
@@ -66,7 +66,7 @@ int on_hand;
 - 易读易验证
 - 初始化时不用按顺序
 
-## 16.1.4　对结构的操作
+### 16.1.4　对结构的操作
 访问结构内的成员
 - 写出结构名字 + 点 + 成员名字
 ```c
@@ -117,7 +117,7 @@ int on_hand;
 } part2;
 ```
 
-## 16.2.1　结构标记的声明
+### 16.2.1　结构标记的声明
 **结构标记**(structure tag)
 ```c
 //声明名为part的结构标记
@@ -150,7 +150,7 @@ struct part part1 = {528, "Disk drive", 10}; struct part part2;
 part2 = part1; /* legal; both parts have the same type */**
 ```
 
-## 16.2.2　结构类型的定义
+### 16.2.2　结构类型的定义
 用typedef来定义真实的类型名
 
 类型Part 的名字必须出现在定义的末尾
@@ -165,7 +165,7 @@ int on_hand;
 Part part1, part2;
 ```
 
-## 16.2.3　结构作为参数和返回值
+### 16.2.3　结构作为参数和返回值
 函数可以有结构类型的实际参数和返回值
 
 函数显示出结构的成员
@@ -192,3 +192,99 @@ struct part build_part(int number, const char * name, int on_hand) {
 //调用
 part1 = build_part(528, "Disk drive", 10);
 ```
+
+## 16.3　嵌套的数组和结构
+成员是结构的结构和元素是结构的数组。
+
+### 16.3.1　嵌套的结构
+```c
+struct person_name { 
+	char first[FIRST_NAME_LEN+1]; 
+	char middle_initial; 
+	char last[LAST_NAME_LEN+1]; 
+};
+
+//用结构person_name 作为更大结构的一部分内容
+struct student { 
+	struct person_name name; 
+	int_id, age; 
+	char sex; 
+} student1, student2;
+
+//访问student1 的名、中名或姓需要两次应用.运算符
+strcpy(student1.name.first, "Fred");
+```
+
+为什么有嵌套的结构???
+
+### 16.3.2　结构数组
+数组和结构最常见的组合之一是其元素为结构的数组。这类数组可以用作简单的数据库。
+
+```c
+//存储100种零件
+struct part inventory[100];
+
+//显示 存储在位置i 的零件
+print_part(inventory[i]);
+
+//给 inventory[i] 中的成员number 赋值883
+inventory[i].number = 883;
+```
+
+### 16.3.3　结构数组的初始化
+初始化结构数组是为了保存一些你后面不会改变的东西。比如国家地区信息
+
+在结构初始化式的外围括上另一对花括号
+
+```c
+struct dialing_code { 
+	char *country; //指针
+	int code; 
+};
+
+//包含一些世界上人口最多的国家的代码
+const struct dialing_code country_codes[] = 
+  {{"Argentina",            54}, {"Bangladesh",          880}, 
+   {"Brazi1",               55}, {"Burma (Myanmar)",      95}, 
+   {"China",                86}, {"Colombia",             57}, 
+   {"Congo, Dem. Rep. of", 243}, {"Egypt",                20}, 
+   {"Ethiopia",            251}, {"France",               33}, 
+   {"Germany",              49}, {"India ",               91}, 
+   {"Indonesia"             62}, {"Iran",                 98}, 
+   {"Italy",                39}, {"Japan",                81}, 
+   {"Mexico",               52}, {"Nigeria",             234}, 
+   {"Pakistan",             92}, {"Philippines",          63}, 
+   {"Poland",               48}, {"Russia",                7}, 
+   {"South Africa",         27}, {"Korea"                 82}, 
+   {"Spain",                34}, {"Sudan"                249}, 
+   {"Thailand",             66}, {"Turkey",               90}, 
+   {"Ukraine",             380}, {"United Kingdom",       44}, 
+   {"United States",         1}, {"Vietnam",             84}}; 
+```
+
+
+## 编译、链接
+
+在使用 `gcc` 编译和链接 C 程序时，通常会经历以下几个步骤：
+1. **预处理**：处理 `#include`、`#define` 等预处理指令。
+2. **编译**：将源代码（如 `.c` 文件）编译成目标文件（`.o` 文件）。
+3. **汇编**：将编译生成的中间代码转换成机器代码。
+4. **链接**：将多个目标文件和库文件链接在一起，生成最终的可执行文件。
+
+```bash
+gcc inventory.c readline.c -o inventory
+
+//gcc 要编译的文件列表 -o 指定输出文件名
+```
+
+这条命令会将`inventory.c`和`readline.c`这两个源文件编译并链接成一个名为`inventory`的可执行文件。编译器会先将每个源文件编译成目标文件（通常是`.o`文件/`.exe`），然后将这些目标文件链接在一起，生成最终的可执行文件。
+
+```bash
+//运行可执行文件.exe
+./inventory
+```
+
+ `./inventory`：这是运行可执行文件的命令。`./`表示当前目录，`inventory`是可执行文件的名称。
+
+`h`文件（头文件）不需要单独操作或编译。头文件通常包含函数声明、宏定义和结构定义等，它们在编译源文件时被包含进来。编译器会在处理源文件时自动处理头文件。
+
