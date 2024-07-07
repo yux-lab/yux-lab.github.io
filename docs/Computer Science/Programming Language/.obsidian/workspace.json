@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15ecbd5ab5ffe21c",
+        "id": "c0c6cf5517e73e64",
         "type": "tabs",
         "children": [
           {
-            "id": "4177c09e1cd552b0",
+            "id": "c261d658ad7e1871",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C Programming/Chapter 15 Writing Large Programs/Writing Large Programs.md",
+                "file": "Git Commands.md",
                 "mode": "source",
                 "source": true
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 346.5
   },
   "right": {
     "id": "7557bcfb297e1979",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C Programming/Chapter 15 Writing Large Programs/Writing Large Programs.md",
+                "file": "Git Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C Programming/Chapter 15 Writing Large Programs/Writing Large Programs.md",
+                "file": "Git Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C Programming/Chapter 15 Writing Large Programs/Writing Large Programs.md"
+                "file": "Git Commands.md"
               }
             }
           }
@@ -147,54 +147,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4177c09e1cd552b0",
+  "active": "c261d658ad7e1871",
   "lastOpenFiles": [
-    "[图灵程序设计丛书]C语言程序设计：现代方法（第2版）【文字版】 ([美] K. N. King) (Z-Library).pdf",
-    "C Programming/Chapter 15 Writing Large Programs/Writing Large Programs.md",
-    "C Programming/Chapter 15 Writing Large Programs/justify.exe",
-    "C Programming/Chapter 15 Writing Large Programs/line.c",
-    "C Programming/Chapter 15 Writing Large Programs/新建 文本文档.txt",
-    "C Programming/Chapter 15 Writing Large Programs/word.c",
-    "C Programming/Chapter 15 Writing Large Programs/justify.c",
-    "C Programming/Chapter 15 Writing Large Programs/line.h",
-    "C Programming/Chapter 15 Writing Large Programs/word.h",
-    "C Programming/Chapter 15 Writing Large Programs/images/2.png",
-    "C Programming/Chapter 15 Writing Large Programs/images/屏幕截图 2024-06-07 084008.png",
-    "C Programming/Chapter 15 Writing Large Programs/images/1.png",
-    "C Programming/Chapter 15 Writing Large Programs/images/屏幕截图 2024-06-07 083520.png",
-    "C Programming/Chapter 15 Writing Large Programs/images",
-    "C Programming/Chapter 15 Writing Large Programs/新建文件夹",
-    "Untitled.md",
-    "C Programming/Chapter 14 The Preprocessor/The Preprocessor.md",
-    "C Programming/Chapter 15 Writing Large Programs",
-    "C Programming/Chapter 14 The Preprocessor/images/1.png",
-    "C Programming/Chapter 14 The Preprocessor/images/屏幕截图 2024-06-05 182748.png",
-    "C Programming/Chapter 13 Strings/Strings.md",
-    "C Programming/Chapter 13 Strings/images/4.png",
-    "C Programming/Chapter 13 Strings/images/屏幕截图 2024-06-05 073028.png",
-    "C Programming/Chapter 13 Strings/images/3.png",
-    "C Programming/Chapter 13 Strings/images/屏幕截图 2024-06-05 072923.png",
-    "C Programming/Chapter 12 Pointers and Arrays/Pointers and Arrays.md",
-    "C Programming/Chapter 11 Pointers/Pointers.md",
-    "DevToolsCommands/LinuxCommands.md",
-    "DevToolsCommands/GitCommands.md",
-    "DevToolsCommands/The Missing Semester of Your CS Education/Source.md",
-    "DevToolsCommands/The Missing Semester of Your CS Education/Lecture 1 Course overview + the shell.md",
-    "Home.md",
-    "Git常用命令.md",
-    "DevToolsCommands/Git常用命令.md",
-    "DevToolsCommands/Linux常用命令手册.md",
-    "Linux常用命令手册.md",
-    "notion/Weekly summary.md",
-    "notion/SSC.md",
-    "IETLS/Lesson 8 Holiday and Travel.md",
-    "IETLS/Lesson 9 Part 3 Questions.md",
-    "IETLS/Lesson 10 Part 3 Questions.md",
-    "IETLS/Lesson 7 Famous people.md",
-    "IETLS/ietls.md",
-    "create a link.md",
-    "Untitled.canvas",
-    "Untitled 1.md",
-    "Welcome.md"
+    "Windows Terminal Commands.md",
+    "recommendSite.md",
+    "Dive into Deep Learning/chap.03 线性神经网络/images/Pasted image 20240707091730.png",
+    "Dive into Deep Learning/chap.03 线性神经网络/images",
+    "Dive into Deep Learning/chap.03 线性神经网络/3.3. 线性回归的简洁实现.md",
+    "Dive into Deep Learning/chap.03 线性神经网络/3.4. softmax回归.md",
+    "Dive into Deep Learning/chap.03 线性神经网络/3.1. 线性回归.md",
+    "Dive into Deep Learning/chap.03 线性神经网络/code/linear-regression-concise.ipynb",
+    "Dive into Deep Learning/chap.03 线性神经网络/code/新建 文本文档.txt",
+    "Dive into Deep Learning/chap.03 线性神经网络/code/linear-regression-scratch.ipynb",
+    "Dive into Deep Learning/chap.03 线性神经网络/code",
+    "Dive into Deep Learning/chap.03 线性神经网络/新建文件夹",
+    "Calculus/数学分析/华东/chap. 12/images/Pasted image 20240706143201.png",
+    "Calculus/数学分析/华东/chap. 12/images",
+    "Calculus/数学分析/华东/Untitled.md",
+    "Calculus/数学分析/华东/chap. 12/01 级数的敛散性.md",
+    "Calculus/数学分析/华东/chap. 12",
+    "Calculus/数学分析/华东",
+    "Calculus/数学分析/新建文件夹",
+    "2024/July/images/Pasted image 20240706121301.png",
+    "images/Pasted image 20240706104525.png",
+    "2024/July/2024-07-06.md",
+    "CSAPP/第01章 计算机系统漫游/第一部分 程序结构和执行/第02章 信息的表示和处理.md",
+    "CSAPP/第01章 计算机系统漫游/第一部分 程序结构和执行/第01章 计算机系统漫游.md",
+    "CSAPP/第01章 计算机系统漫游/第一部分 程序结构和执行/第03章 程序的机器级表示.md",
+    "CSAPP/images/Pasted image 20240614101346.png",
+    "CSAPP/第1章 计算机系统漫游/images/Pasted image 20240619085943.png",
+    "CSAPP/第1章 计算机系统漫游/images/Pasted image 20240618083452.png",
+    "CSAPP/第1章 计算机系统漫游/images/Pasted image 20240615170631.png",
+    "CSAPP/第1章 计算机系统漫游/images/Pasted image 20240615170550.png",
+    "CSAPP/第1章 计算机系统漫游/images/Pasted image 20240615164323.png",
+    "CSAPP/第1章 计算机系统漫游/第一部分 程序结构和执行/第01章 计算机系统漫游.md",
+    "CSAPP/第1章 计算机系统漫游/第一部分 程序结构和执行/第03章 程序的机器级表示.md",
+    "CSAPP/第1章 计算机系统漫游/第一部分 程序结构和执行/第02章 信息的表示和处理.md",
+    "Linux Commands.md",
+    "Vim Commands.md",
+    "Jetson nano Commands.md",
+    "Git Commands.md",
+    "Conda Commands.md",
+    "Commands Manual/Vim Commands.md",
+    "2024/May/2024-05-31.md",
+    "2024/July/2024-07-05.md",
+    "Commands Manual/LinuxCommands.md",
+    "2024-07-04.md",
+    "Deep Learning from Scratch/Chapter 04 神经网络的学习/神经网络的学习.md",
+    "Deep Learning from Scratch/Chapter 05 误差反向传播法/误差反向传播法.md",
+    "Untitled.canvas"
   ]
 }

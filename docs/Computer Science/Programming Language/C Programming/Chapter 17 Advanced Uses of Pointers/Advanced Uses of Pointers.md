@@ -149,3 +149,62 @@ strcpy(p, "abc");     /*** WRONG ***/
 ```
 
 ## 17.5　链表
+链表（Linked List）是由一连串的结构（称为 结点 ）组成的，其 中每个结点都包含指向链中下一个结点的指针：
+
+![](images/Pasted%20image%2020240623130139.png)
+
+最后一个结点包含空指针
+
+### 17.5.1　声明结点类型
+```c
+struct node { 
+	int value; //data stored in the node
+	struct node *next; // pointer to the next node  
+};
+
+//头结点
+struct node *first = NULL; 
+```
+
+### 17.5.2　创建结点
+1. 为结点分配内存单元
+2. 把数据存储到结点中
+3. 把结点插入到链表中
+
+```c
+//临时变量
+struct node *new_node;
+
+//分配空间
+//传给sizeof的是待分配的数据类型的名字，而不是指向此类型的指针的名字
+new_node = malloc(sizeof(struct node)); 
+```
+
+![](images/Pasted%20image%2020240623130710.png)
+
+```c
+//存储数据
+(*new_node).value = 10; 
+```
+
+![](images/Pasted%20image%2020240623130823.png)
+
+
+### 17.5.3　-> 运算符
+利用指针访问结构中的成员：右箭头选择 - >
+
+运算符- >是运算符* 和运算符. 的组合，它先对new_node 间接寻址以定位所指向的结构，然后再选择结构的成员value 。
+```c
+new_node->value = 10;
+
+//如何没有&将会把new_node->value的值传给scanf函数
+scanf("%d", &new_node->value);
+```
+
+### 17.5.4　在链表的开始处插入结点
+```c
+new_node->next = first;
+
+first = new_node;
+```
+

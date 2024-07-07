@@ -1,3 +1,9 @@
 {
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz"
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-simplicity-topaz",
+  "blue-topaz-theme@@h1-line-height": 2,
+  "blue-topaz-theme@@indentation-guide-width": 2,
+  "blue-topaz-theme@@bt-colorful-indentation-width": "2px",
+  "blue-topaz-theme@@line-height-main": 2,
+  "blue-topaz-theme@@line-height-split": 2,
+  "blue-topaz-theme@@inline-title-line-height": 2
 }

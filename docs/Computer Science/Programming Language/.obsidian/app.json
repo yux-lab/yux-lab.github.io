@@ -1,8 +1,10 @@
 {
-  "attachmentFolderPath": "/",
+  "attachmentFolderPath": "./images",
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "livePreview": false,
   "defaultViewMode": "source",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative"
 }

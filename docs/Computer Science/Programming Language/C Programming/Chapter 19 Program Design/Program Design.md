@@ -89,4 +89,3 @@ int pop(Stack_ADT *s);
 
 
 ### 19.4.3 改变栈抽象数据类型中数据项的类型
-[*[图灵程序设计丛书]C语言程序设计：现代方法（第2版）【文字版】 ([美] K. N. King) (Z-Library).pdf](file:///D:/obsidian/Computer%20Science/Programming%20Language/[%E5%9B%BE%E7%81%B5%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E4%B8%9B%E4%B9%A6]C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%9A%E7%8E%B0%E4%BB%A3%E6%96%B9%E6%B3%95%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89%E3%80%90%E6%96%87%E5%AD%97%E7%89%88%E3%80%91%20([%E7%BE%8E]%20K.%20N.%20King)%20(Z-Library).pdf)
