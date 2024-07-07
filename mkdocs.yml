@@ -1,0 +1,69 @@
+site_name: yux-lab
+site_url: https://yux-lab.github.io/
+site_author: Yux
+
+theme:
+  name: material
+  favicon: img/favicon.png
+  #logo: 
+  features:
+    - navigation.tabs
+    - navigation.sections
+    #- toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: zh
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: teal
+      accent: light green
+    - scheme: slate 
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode    
+      primary: deep purple
+      accent: lime
+
+# plugins:
+#   - social
+#   - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/yux-lab
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+  #- mdx_math
+  - pymdownx.arithmatex
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  
+# nav:
+#   - Computer Science:
+#     - Programming Language:
+      
+
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/yux-lab"  target="_blank" rel="noopener">Yux</a>
