@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git Commands.md",
+                "file": "Vim Commands.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git Commands.md",
+                "file": "Vim Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git Commands.md",
+                "file": "Vim Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git Commands.md"
+                "file": "Vim Commands.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "c261d658ad7e1871",
   "lastOpenFiles": [
+    "Git Commands.md",
     "Windows Terminal Commands.md",
     "recommendSite.md",
     "Dive into Deep Learning/chap.03 线性神经网络/images/Pasted image 20240707091730.png",
@@ -186,7 +187,6 @@
     "Linux Commands.md",
     "Vim Commands.md",
     "Jetson nano Commands.md",
-    "Git Commands.md",
     "Conda Commands.md",
     "Commands Manual/Vim Commands.md",
     "2024/May/2024-05-31.md",
