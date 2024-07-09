@@ -1,4 +1,4 @@
-
+test
 
 ```c
 /* Computes pairwise averages of three numbers */

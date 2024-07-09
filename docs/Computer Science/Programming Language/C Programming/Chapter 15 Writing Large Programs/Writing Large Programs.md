@@ -1,6 +1,6 @@
 ## 15.1 源文件
-.c文件:主要包含函数和变量的定义
-一定有一个源文件包含main函数,作为程序的起始点.
+`.c`文件:主要包含函数和变量的定义
+一定有一个源文件包含`main`函数,作为程序的起始点.
 
 把程序分成多个源文件优点:
 - 函数和变量分组放在同一个文件中让程序结构更清晰
@@ -8,9 +8,9 @@
 - 函数分在不同的源文件更利于复用
 
 ## 15.2 头文件
-.h文件
+`.h`文件
 定义函数 声明变量
-用#include指令来共享函数、宏定义、类型定义
+用`#include`指令来共享函数、宏定义、类型定义
 
 ### 15.2.1 #include指令
 格式:
@@ -42,10 +42,10 @@
 #include "boolean.h"
 ```
 
-![[C Programming/Chapter 15 Writing Large Programs/images/1.png]]
+![](images/1.png)
 
 ### 15.2.3　共享函数原型
-![[C Programming/Chapter 15 Writing Large Programs/images/2.png]]
+![](images/2.png)
 
 ### 15.2.4　共享变量声明
 ```c

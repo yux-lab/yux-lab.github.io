@@ -1,5 +1,6 @@
 ## 13.1 字符串字面量
 字符串常量:字符串字面量
+
 字符串变量:变量变量,可以改变
 ```c
 "This is a string literal"
@@ -9,7 +10,8 @@
 C把字符串字面量作为字符数组来处理,为它分配长度为n + 1的内存空间
 
 标志字符串末尾：空字符('\0'),ASCII码值为0
-![[C Programming/Chapter 13 Strings/images/1.png]]
+
+![](images/1.png)
 
 ```c
 //传递"abc"的地址???
@@ -46,7 +48,7 @@ char date1[8] = {'J', 'u', 'n', 'e', ' ', '1', '4', '\0'};
 //自动分配8个字符空间,编译后固定长度
 char date4[] = "June 14";
 ```
-![[C Programming/Chapter 13 Strings/images/2.png]]
+![](images/2.png)
 
 ### 13.3.1 用 printf 函数和 puts 函数写字符串
 ```c
@@ -62,7 +64,7 @@ printf("%.6s\n", str);
 ```
 
 ### 13.3.2 用 scanf 函数和 gets 函数读字符串
-> 在scanf 函数调用中,不需要在str 前添加运算符&,因为str 是数组名,编译器在把它传递给函数时会把它当作指针来处理。
+> 在`scanf` 函数调用中,不需要在`str` 前添加运算符`&`,因为`str` 是数组名,编译器在把它传递给函数时会把它当作指针来处理。
 ```c
 //转换说明%s
 scanf("%s", str)
@@ -117,8 +119,9 @@ if (str1 == str2) ... /*** WRONG ***/
 ```
 
 ### 13.5.1 strcpy 函数
-函数把字符串s2 复制给字符串s1
-> !无法检查str2 指向的字符串的大小是否真的适合str1 指向的数组。
+函数把字符串`s2` 复制给字符串`s1`
+
+> !无法检查`str2` 指向的字符串的大小是否真的适合str1 指向的数组。
 ```c
 //copy s2 to s1
 char *strcpy(char *s1, const char *s2);
@@ -150,7 +153,7 @@ len = strlen(strl); /* len is now 3 */
 ```
 
 ### 13.5.3 strcat 函数
-将s2内容追加到s1的末尾,并返回s1(指向结果字符串的指针)
+将`s2`内容追加到`s1`的末尾,并返回`s1`(指向结果字符串的指针)
 ```c
 //原型:
 char *strcat(char *s1, const char *s2);
@@ -164,14 +167,16 @@ strcpy(str2, "def");
 strcat(str1, str2); /* str1 now contains "abcdef" */
 ```
 
-strncat 函数,第三个参数来限制所复制的字符数
+`strncat` 函数,第三个参数来限制所复制的字符数
 ```c
 strncat(str1, str2, sizeof(str1) - strlen(str1) - 1) ;
 ```
 
 ### 13.5.4 strcmp 函数
 利用字典顺序进行字符串比较。
-比较s1 s2,根据s1 是 >、=、< s2,
+
+比较`s1` `s2`,根据`s1` 是 `>`、`=`、`<` s2,
+
 函数返回一个>、=、< 0的值
 ```c
 //原型
@@ -225,9 +230,10 @@ char planets[][8] = {"Mercury", "Venus", "Earth",
 					"Uranus", "Neptune", "Pluto"};
 ```
 
-![[C Programming/Chapter 13 Strings/images/3.png]]
+![](images/3.png)
 
 指向字符串的指针的数组;
+
 数组存储的是指针,指针指向对应的字符串
 ```c
 char *planets[] = {"Mercury", "Venus", "Earth", 
@@ -241,5 +247,4 @@ for (i = 0; i < 9; i++)
 		printf("%s begins with M\n", planets[i]);
 ```
 
-![[C Programming/Chapter 13 Strings/images/4.png]]
-
+![](images/4.png)

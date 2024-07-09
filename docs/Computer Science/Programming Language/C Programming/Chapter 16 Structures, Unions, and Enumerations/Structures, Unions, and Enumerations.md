@@ -12,14 +12,14 @@ int on_hand;
 } part1, part2;
 ```
 
-struct{...} 指明了类型，而part1 和part2 则是具有这种类型的变量。
+`struct{...}` 指明了类型，而part1 和part2 则是具有这种类型的变量。
 
 结构的成员在内存中是按照声明的**顺序存储**的。
 
 part1内存形式。假设
-- part1 存储在地址为2000的内存单元中
+- `part1` 存储在地址为2000的内存单元中
 - 每个整数在内存中占4个字节
-- NAME_LEN 的值为25
+- `NAME_LEN` 的值为25
 - 成员之间没有间隙
 
 ![](images/Pasted%20image%2020240610070431.png)
@@ -68,7 +68,7 @@ int on_hand;
 
 ### 16.1.4　对结构的操作
 访问结构内的成员
-- 写出结构名字 + 点 + 成员名字
+- 写出结构名字 + `.` + 成员名字
 ```c
 printf("Part number: %d\n", part1.number); printf("Part name: %s\n", part1.name);
 ```
@@ -100,9 +100,9 @@ a1 = a2; /* legal, since a1 and a2 are structures */
 ## 16.2　结构类型
 命名结构**类型**
 - 可以声明“结构标记”
-- 使用typedef 来定义类型名
+- 使用`typedef` 来定义类型名
 
-为什么要命名结构类型？比如说，有一个结构拥有着几个声明，而另一个结构不仅需要前者的声明还需要新的声明。如果重复编写会使程序膨胀，并且将来修改会有风险，而最大的问题是，part1 和part2 不具有兼容的类型，因此part2 ≠ part1,反之亦然，且类型没有名字，所以也不能用作函数调用的参数。
+为什么要命名结构类型？比如说，有一个结构拥有着几个声明，而另一个结构不仅需要前者的声明还需要新的声明。如果重复编写会使程序膨胀，并且将来修改会有风险，而最大的问题是，`part1` 和`part2` 不具有兼容的类型，因此`part2` ≠ `part1`,反之亦然，且类型没有名字，所以也不能用作函数调用的参数。
 
 ```c
 struct { 
@@ -129,9 +129,9 @@ int on_hand;
 //分号表结束
 ```
 
-一旦创建了标记part ，就可以用它来声明变量了
+一旦创建了标记`part` ，就可以用它来声明变量了
 
-结构标记只有在前面放置了单词struct 才会有意义;假如程序拥有part变量，这两者并不会冲突
+结构标记只有在前面放置了单词`struct` 才会有意义;假如程序拥有`part`变量，这两者并不会冲突
 ```c
 struct part part1, part2;
 ```
@@ -151,9 +151,9 @@ part2 = part1; /* legal; both parts have the same type */**
 ```
 
 ### 16.2.2　结构类型的定义
-用typedef来定义真实的类型名
+用`typedef`来定义真实的类型名
 
-类型Part 的名字必须出现在定义的末尾
+类型`Part` 的名字必须出现在定义的末尾
 ```c
 typedef struct { 
 int number; 
@@ -178,7 +178,7 @@ printf("Part number: %d\n", p.number); printf("Part name: %s\n", p.name); printf
 print_part(part1);
 ```
 
-函数返回part 结构，此结构由函数的实际参数构成
+函数返回`part` 结构，此结构由函数的实际参数构成
 ```c
 struct part build_part(int number, const char * name, int on_hand) { 
 	struct part p; 

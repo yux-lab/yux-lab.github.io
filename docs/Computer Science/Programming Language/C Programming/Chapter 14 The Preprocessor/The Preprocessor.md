@@ -8,8 +8,7 @@
 //打开一个特定的文件,将它的内容作为正在编译的文件的一部分“包含”进来。
 #include
 ```
-![[C Programming/Chapter 14 The Preprocessor/images/1.png]]
-
+![](images/1.png)
 
 ## 14.2 预处理指令
 - 宏定义
@@ -43,7 +42,7 @@
 #define FALSE 0
 ```
 
-用#define定义常量优点:
+用`#define`定义常量优点:
 - 程序易读
 - ~易于修改
 
@@ -61,6 +60,7 @@
 ```
 
 - 预处理器只会替换完整的记号，而不会替换记号的片断
+
 也就是说拼接常量名并不会有预期影响
 ```c
 #define SIZE 256 int BUFFER_SIZE; 

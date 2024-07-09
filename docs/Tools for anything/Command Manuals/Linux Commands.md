@@ -98,5 +98,10 @@ poweroff
 clear
 ```
 
+vim 打开/创建一个文件
+```
+vim threads.c
+```
+
 
 
