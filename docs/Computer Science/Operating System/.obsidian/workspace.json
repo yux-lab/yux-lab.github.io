@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C Programming/Chapter 19 Program Design/Program Design.md",
+                "file": "Linux C编程一站式学习/I. C语言入门/02. 常量、变量和表达式.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C Programming/Chapter 19 Program Design/Program Design.md",
+                "file": "Linux C编程一站式学习/I. C语言入门/02. 常量、变量和表达式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C Programming/Chapter 19 Program Design/Program Design.md",
+                "file": "Linux C编程一站式学习/I. C语言入门/02. 常量、变量和表达式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C Programming/Chapter 19 Program Design/Program Design.md"
+                "file": "Linux C编程一站式学习/I. C语言入门/02. 常量、变量和表达式.md"
               }
             }
           }
@@ -149,6 +149,12 @@
   },
   "active": "8fd2bdf76ce4cc5c",
   "lastOpenFiles": [
+    "Linux C编程一站式学习/I. C语言入门/01. 程序的基本概念.md",
+    "Linux C编程一站式学习/I. C语言入门/02. 常量、变量和表达式.md",
+    "Linux C编程一站式学习/index.md",
+    "Linux C编程一站式学习/I. C语言入门",
+    "Linux C编程一站式学习",
+    "C Programming/Chapter 19 Program Design/Program Design.md",
     "C Programming/Chapter 17 Advanced Uses of Pointers/Advanced Uses of Pointers.md",
     "C Programming/Chapter 16 Structures, Unions, and Enumerations/Structures, Unions, and Enumerations.md",
     "C Programming/Chapter 15 Writing Large Programs/Writing Large Programs.md",
@@ -162,7 +168,6 @@
     "C Programming/Chapter 06 Loops/Loops.md",
     "C Programming/Chapter 05 Selection Statements/Selection Statements.md",
     "C Programming/Chapter 02 Basic Features of C/Basic Features of C.md",
-    "C Programming/Chapter 19 Program Design/Program Design.md",
     "C Programming/Chapter 14 The Preprocessor/images/1.png",
     "C Programming/Chapter 14 The Preprocessor/images/Pasted image 20240709151042.png",
     "Jetson nano Commands.md",
@@ -175,8 +180,6 @@
     "Dive into Deep Learning/chap.03 线性神经网络/3.4. softmax回归.md",
     "Dive into Deep Learning/chap.03 线性神经网络/3.3. 线性回归的简洁实现.md",
     "Dive into Deep Learning/chap.03 线性神经网络/3.1. 线性回归.md",
-    "Deep Learning from Scratch/Chapter 05 误差反向传播法/误差反向传播法.md",
-    "Deep Learning from Scratch/Chapter 03 神经网络/神经网络.md",
     "Dive into Deep Learning/chap.03 线性神经网络/images/Pasted image 20240707091730.png",
     "Dive into Deep Learning/chap.03 线性神经网络/images",
     "Dive into Deep Learning/chap.03 线性神经网络/code/linear-regression-concise.ipynb",
@@ -187,8 +190,6 @@
     "Calculus/数学分析/华东/chap. 12/images/Pasted image 20240706143201.png",
     "Calculus/数学分析/华东/chap. 12/images",
     "Calculus/数学分析/华东/chap. 12",
-    "Calculus/数学分析/华东",
-    "Calculus/数学分析/新建文件夹",
     "2024/July/images/Pasted image 20240706121301.png",
     "images/Pasted image 20240706104525.png",
     "CSAPP/images/Pasted image 20240614101346.png",
