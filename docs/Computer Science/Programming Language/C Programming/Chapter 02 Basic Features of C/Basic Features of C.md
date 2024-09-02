@@ -105,3 +105,29 @@ weight = (volume + 166 - 1) / 166;
 不以数字开头
 
 不以关键字命名
+
+什么是记号？
+在C语言中，记号（Token）是代码中的最小单位，它可以是关键字、标识符、运算符、常量或分隔符。
+
+## 练习题
+2.
+(a)
+include <stdio.h>指令，实现printf输出语句
+
+(b)
+Parkinson's Law:
+Work expands so as to fill the time
+available for its completion.
+
+4.
+随机
+
+5.
+a
+
+6.为什么说在标识符中使用多个相邻的下划线（如 current___balance ）不太合适？<br>
+可能会与编译器或标准库中的标识符冲突，并导致不可预测的行为。
+
+8.
+18//?
+
