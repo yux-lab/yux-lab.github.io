@@ -32,8 +32,8 @@ shutdown -s -t 600
 curl -O https://repo1.maven.org/maven2/com/madgag/bfg/1.13.0/bfg-1.13.0.jar
 ```
 
-## win强制删除文件夹（“你需要来自XXX的权限才能对此文件夹进行更改”的解决方法）
-```shell
+### win强制删除文件夹（“你需要来自XXX的权限才能对此文件夹进行更改”的解决方法）
+```bash
 # 打开powershell 进入目录
 cd D:
 
@@ -46,4 +46,10 @@ cacls '文件/文件夹' /t /e /g Administrators:F
 # 强制删除文件
 rd '文件/文件夹' -Recurse
 # rd '文件/文件夹'
+```
+
+### 文件或目录损坏且无法读取 CHKDSK 修复方法
+```bash
+#chkdsk 盘符: /f
+chkdsk E: /f
 ```

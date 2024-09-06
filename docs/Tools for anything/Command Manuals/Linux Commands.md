@@ -65,6 +65,11 @@ mv 文件A 文件B
 cat 文件名
 ```
 
+### 创建副本
+```
+cp example.txt example_copy.txt
+```
+
 ### 文件名查找
 ```
 find 搜索路径 -name "文件名关键词"
@@ -81,7 +86,8 @@ grep -参数 要查找的目录范围
 参数
 -n 显示查找结果所在行号 
 -R 递归查找目录下的所有文件
-例子 grep aries /etc grep aries /etc/passwd
+例子 
+grep aries /etc grep aries /etc/passwd
 ```
 
 ### 关机

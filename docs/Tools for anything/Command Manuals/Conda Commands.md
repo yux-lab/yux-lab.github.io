@@ -13,7 +13,7 @@ conda create -n name python=3.8(optional) -y
 conda activate name
 ```
 
-### 添加清华源
+### 安装包时使用清华源
 ```bash
 pip install xxxx -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
@@ -49,6 +49,6 @@ python -m ipykernel install --user --name=your_env
 
 
 
-curl -H "Authorization: Bearer ya29.a0AcM612xO9G8alCpQELfs6UF047FBCzOluEupgh1WXrUgXXJ8SYBSTUjW3BOc7GujZ7fS-psBkriiubqJ5Oa4CANJdn5V_zckTDiERk77fneZz9Q-j8kPj5TEDtDc_Hytb-2ZiV53heRRJJPlFAkPS4apQNhzj5uW-jGWev3-aCgYKAcESARMSFQHGX2MiZ_-RsY7iNHg3A6uV-L0StQ0175" https://www.googleapis.com/drive/v3/files/1yKaz9_SjTUGOJ3rKSgttqOPF5ZUokQbY?alt=media -o data_2d_raw.sqf
+
 
 
