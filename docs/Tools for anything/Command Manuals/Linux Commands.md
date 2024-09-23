@@ -1,7 +1,14 @@
+
+### 检查 python 版本
+```bash
+which python
+python --version
+```
+
 ### 压缩文件
 ```bash
 # 需要压缩的路径并压缩到.zip文件 源路径
-zip -r /mnt/data1/zip/kitti_datasets.zip /mnt/data/SGN_Dataset/kitti
+zip -r /mnt/data1/zip/jenny_ubuntu.zip /mnt/data/SGN_Dataset/kitti
 
 zip -r /mnt/data2/data2.zip /mnt/data2/* -x /mnt/data2/lost+found/*
 ```
