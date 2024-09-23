@@ -46,3 +46,45 @@ git checkout -b gh-pages
 
 git push -u origin gh-pages
 ```
+
+## 安装 git（ubuntu）
+```bash
+sudo apt update
+sudo apt install git
+```
+
+## 配置Git
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+```
+
+## 生成SSH密钥
+```bash
+#如果还没有SSH密钥对，使用以下命令生成一个新的SSH密钥：
+ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+
+#跟随提示一路回车，将生成的SSH密钥添加到SSH代理：
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+```
+
+## 查看生成秘钥
+```bash
+cat  ~/.ssh/id_rsa.pub
+```
+
+## 配置 SSH
+![](images/Pasted%20image%2020240917235354.png)
+将id_rsa.pub文件中的内容全部复制到key中，输入title，点击Add SSH key 即可。
+![](images/Pasted%20image%2020240917235406.png)
+
+## 克隆GitHub仓库
+
+## 如何写脚本上传至仓库
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:yux-lab/c-programming-a-modern-approach.git
+git push -u origin main

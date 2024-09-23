@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ca1c5449b8c38a0d",
+        "id": "9ca5b7a45eb2f014",
         "type": "tabs",
         "children": [
           {
-            "id": "29695816de5f8f88",
+            "id": "d47248c9f8f5f34e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Terminal Commands.md",
+                "file": "Calculus/ch11 Infinite Sequences and Series/10 Representations of Functions as Power Series.md",
                 "mode": "source",
                 "source": true
               }
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "bda38b11b5887214",
+            "id": "36aee3e7f86fbd6e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows Terminal Commands.md",
+                "file": "Calculus/ch11 Infinite Sequences and Series/10 Representations of Functions as Power Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows Terminal Commands.md",
+                "file": "Calculus/ch11 Infinite Sequences and Series/10 Representations of Functions as Power Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows Terminal Commands.md"
+                "file": "Calculus/ch11 Infinite Sequences and Series/10 Representations of Functions as Power Series.md"
               }
             }
           }
@@ -146,54 +146,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29695816de5f8f88",
+  "active": "d47248c9f8f5f34e",
   "lastOpenFiles": [
-    "d2l/09 Softmax 回归/images/Pasted image 20240905133938.png",
-    "d2l/09 Softmax 回归/images/Pasted image 20240905133754.png",
-    "d2l/09 Softmax 回归/images",
-    "d2l/08 线性回归 + 基础优化/03 线性回归的从零开始实现.md",
-    "d2l/09 Softmax 回归/Softmax 回归.md",
-    "d2l/09 Softmax 回归",
-    "C Programming/习题笔记/index.md",
-    "C Programming/Chapter 02 Basic Features of C/Basic Features of C.md",
-    "C Programming/习题笔记/ch03.md",
-    "C Programming/Chapter 03 Formatted Input_Output/Formatted Input_Output.md",
-    "汇编语言（第4版）/images/Pasted image 20240905090413.png",
-    "汇编语言（第4版）/images/Pasted image 20240905085946.png",
-    "汇编语言（第4版）/images/Pasted image 20240905085651.png",
-    "汇编语言（第4版）/images/Pasted image 20240905085606.png",
-    "汇编语言（第4版）/images/Pasted image 20240905085513.png",
-    "汇编语言（第4版）/images/Pasted image 20240905085510.png",
-    "汇编语言（第4版）/第01章 基础知识.md",
-    "汇编语言（第4版）/第02章 寄存器.md",
-    "汇编语言（第4版）/images/Pasted image 20240905084954.png",
-    "d2l/08 线性回归 + 基础优化/02 基础优化算法.md",
-    "d2l/08 线性回归 + 基础优化/01 线性回归.md",
-    "d2l/08 线性回归 + 基础优化",
-    "d2l/images/Pasted image 20240904153410.png",
-    "d2l/images/Pasted image 20240904153310.png",
-    "d2l/images",
-    "d2l",
-    "Linux Commands.md",
-    "LaTex.md",
-    "Jetson nano Commands.md",
-    "Git Commands.md",
+    "Calculus/ch11 Infinite Sequences and Series/08 Power Series.md",
+    "Calculus/ch11 Infinite Sequences and Series/10 Representations of Functions as Power Series.md",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923081128.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923081041.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923081022.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073523.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073342.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073236.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073225.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073008.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923072239.png",
+    "Calculus/ch11 Infinite Sequences and Series/06 Absolute Convergence and the Ratio and Root Tests.md",
+    "Calculus/ch11 Infinite Sequences and Series/07 Strategy for Testing Series.md",
+    "Calculus/ch11 Infinite Sequences and Series/05 Alternating Series.md",
+    "Calculus/ch11 Infinite Sequences and Series/03 The Integral Test and Estimates of Sums.md",
+    "Calculus/ch11 Infinite Sequences and Series/02 Series.md",
+    "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
+    "Calculus/ch11 Infinite Sequences and Series/04 The Comparison Tests.md",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923071459.png",
+    "SSC/history - 副本.md",
+    "SSC/history.md",
     "Vim Commands.md",
     "Windows Terminal Commands.md",
-    "Conda Commands.md",
-    "Untitled.md",
-    "2024-09-03.md",
-    "Linux C编程一站式学习/II. C语言本质/18. x86汇编程序基础.md",
-    "Linux C编程一站式学习/I. C语言入门/01. 程序的基本概念.md",
-    "Linux C编程一站式学习/I. C语言入门/10. gdb.md",
-    "Linux C编程一站式学习/I. C语言入门/02. 常量、变量和表达式.md",
-    "汇编语言（第4版）/images",
-    "汇编语言（第4版）",
-    "图像处理.md",
-    "2024-08-18.md",
-    "Calculus/images",
-    "第一行代码：Android/images",
-    "C Programming/Chapter 02 Basic Features of C/code/show_value.exe",
+    "Linux Commands.md",
+    "Git Commands.md",
+    "Powershell Commands.md",
+    "blog.md",
+    "recommendSite.md",
+    "ubuntu玄学问题.md",
+    "深度学习小本本.md",
+    "2024/July/2024-07-24.md",
+    "2024/July/2024-07-29.md",
+    "2024/July/2024-07-31.md",
+    "2024-08-08.md",
+    "2024/July/2024-07-01.md",
+    "2024-08-09.md",
+    "SSC/images",
+    "SSC",
+    "Calculus/ch11 Infinite Sequences and Series/images",
+    "Calculus/ch11 Infinite Sequences and Series",
+    "images",
+    "Calculus/ch09 Differential Equations/images",
+    "Calculus/ch09 Differential Equations",
+    "d2l/19 卷积层",
+    "d2l/12 权重衰退",
+    "d2l/11 模型选择 + 过拟合和欠拟合/images",
     "Untitled.canvas"
   ]
 }

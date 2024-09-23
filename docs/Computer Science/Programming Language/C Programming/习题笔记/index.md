@@ -10,6 +10,7 @@ int main(void){
 }
 
 printf("");
-printf("\n");
 scanf("");
+printf("\n");
+
 ```

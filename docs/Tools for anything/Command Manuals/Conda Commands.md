@@ -1,3 +1,8 @@
+### 导出环境
+```bash
+conda env export > environment.yaml
+```
+
 ### 删除
 ```bash
 conda remove -n name --all -y
@@ -46,6 +51,37 @@ conda install -c anaconda ipykernel
 
 python -m ipykernel install --user --name=your_env
 ```
+
+### linux 换 pip 源
+```bash
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+
+```bash
+channels:
+  - defaults
+show_channel_urls: true
+channel_alias: https://mirrors.tuna.tsinghua.edu.cn/anaconda
+default_channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+custom_channels:
+  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+```
+
+### python安装好了某个包但是仍报错ImportError: No module named xxx的解决方法及思路
+出现该问题的根本原因是，当前使用的python环境，和已经安装了包的python环境不是同一个。
+也就是说，一个是用 pip 3 安装的，而却用 python 来运行，就会错误
+[python安装好了某个包但是仍报错ImportError: No module named xxx的解决方法及思路\_python包安装了但import报错-CSDN博客](https://blog.csdn.net/weixin_44120025/article/details/129397395)
 
 
 
