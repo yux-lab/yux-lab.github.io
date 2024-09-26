@@ -35,6 +35,16 @@ git commit -m "something new"
 git push -u origin master/main -f
 ```
 
+## 
+```bash
+# 合并远程的更改到本地分支
+git pull origin main
+
+git commit -m "Merge remote-tracking branch 'origin/main'"
+
+git push -u origin main
+```
+
 ```bash
 git fetch --all
 

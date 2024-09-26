@@ -1,44 +1,95 @@
 序列：排成一列的数字。比如数列
 
-定义 1
-![](images/Pasted%20image%2020240918083953.png)
+定义 1：一个序列 $a_n$ 有极限 $L$，写为：
+
+$$
+\lim_{n\to\infty}a_n=L\quad\mathrm{or}\quad a_n\to L \mathrm\quad{as} \quad n\to\infty 
+$$
+
+如果我们可以通过取足够大的 $n$ 使项 $a_n$ ​ 与 $L$ 尽可能接近，那么如果 $\lim_{n\to\infty}a_n$  存在，则序列收敛，否则发散。
 
 ![](images/Pasted%20image%2020240918084023.png)
 
-定义 2
-more precise
-![](images/Pasted%20image%2020240918084035.png)
+定义 2，更精确，一个序列 $a_n$ 有极限 L 我们写作：
 
-无论选择的这个区间多么小，总有一个 N，使得从 aN+1 开始的序列的所有项都必须位于该区间内。
+$$
+\lim_{n\to\infty} a_n=L\quad\mathrm{or}\quad a_n\to L \quad\mathrm{as} \quad n\to\infty 
+$$
+
+如果对于每一个 $\varepsilon>0$ 都存在一个整数 N，有：
+
+$$
+\text{if}\quad n>N\quad\text{then}\quad\left|a_n-L\right|<\varepsilon 
+$$
+
+无论选择的这个 $(L-\varepsilon,L+\varepsilon)$ 区间多么小，总有一个 $N$，使得从 $a_n+1$ 开始的序列的所有项都必须位于该区间内。
 
 ![](images/Pasted%20image%2020240918084112.png)
 
-an 始终躺在两条绿色水平线的中间
+$a_n$ 始终躺在两条绿色水平线的中间
+
 ![](images/Pasted%20image%2020240918084252.png)
 
-定理 3
-取 N 为整数
-![](images/Pasted%20image%2020240918084633.png)
+定理 3：当 $N$ 是一个整数时，$\lim_{x\to\infty}f(x)=L\mathrm{~and~}f(n)=a_n$，则 $\lim_{n\to\infty}a_n=L$
 
 ![](images/Pasted%20image%2020240918084638.png)
 
 
 from 3.4.4
-![](images/Pasted%20image%2020240918084922.png)
+定理 4：如果 $r>0$ 是一个有理数，则
+
+$$
+\lim_{x\to\infty}\frac1{x^r}=0
+$$
+
+如果 $r>0$ 是一个有理数使得对于所有 $x$，$x^r$ 都有定义，则
+
+$$
+\lim_{x\to-\infty}\frac1{x^r}=0
+$$
+
 ![](images/Pasted%20image%2020240918085035.png)
 
-第 4
-回到序列
-![](images/Pasted%20image%2020240918085153.png)
+第 4 回到序列
 
-定义 5
-如果 an 随着 n 的增大而增大，使用下列定义和符号
-![](images/Pasted%20image%2020240918085247.png)
+$$
+\lim_{n\to\infty}\frac{1}{n^r}=0\quad\text{if} r>0
+$$
+
+定义 5：$\lim_{n\to\infty}a_{n}=\infty$ 一位置对于每一个正数 M，都存在一个整数 N 使得
+
+$$
+\text{if}\quad n>N\quad\text{then}\quad a_n>M
+$$
 
 序列的极限定律
-![](images/Pasted%20image%2020240918085302.png)
 
-三明治定理
+$$\lim_{n\to\infty}\:(a_n\:+\:b_n)=\lim_{n\to\infty}\:a_n\:+\:\lim_{n\to\infty}\:b_n
+$$
+
+$$
+\lim_{n\to\infty}\:(a_n-b_n)=\lim_{n\to\infty}\:a_n-\lim_{n\to\infty}\:b_n
+$$
+
+$$
+\lim\limits_{n\to\infty}ca_n=c\lim\limits_{n\to\infty}a_n\quad\lim\limits_{n\to\infty}c=c
+$$
+
+
+$$
+\lim_{n\to\infty}\left(a_{n}b_{n}\right)=\lim_{n\to\infty}a_{n}\cdot\lim_{n\to\infty}b_{n}
+$$
+
+$$
+\lim_{n\to\infty}\frac{a_n}{b_n}=\frac{\lim_{n\to\infty}a_n}{\lim_{n\to\infty}b_n}\quad\text{if}\lim_{n\to\infty}b_n\neq0
+$$
+
+$$
+\lim\limits_{n\to\infty}a_n^p=\begin{bmatrix}\lim\limits_{n\to\infty}a_n\end{bmatrix}^p\quad\text{if } p>0\text{ and } a_n>0
+$$
+
+
+三明治定理： $\mathrm{If~}a_n\leqslant b_n\leqslant c_n\mathrm{~for~}n\geqslant n_0\mathrm{~and}\lim_{n\to\infty}a_n=\lim_{n\to\infty}c_n=L,\mathrm{then}\lim_{n\to\infty}b_n=L$
 ![](images/Pasted%20image%2020240918085547.png)
 ![](images/Pasted%20image%2020240918085600.png)
 

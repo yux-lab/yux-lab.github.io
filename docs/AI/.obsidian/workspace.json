@@ -8,23 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d47248c9f8f5f34e",
+            "id": "4dcc7fe8602989d2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3b698ced2f040017",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "e6339331ddf2eb5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfe220bace4e8af9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 202.5,
+    "collapsed": true
   },
   "right": {
     "id": "7557bcfb297e1979",
@@ -90,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md"
+              }
             }
           }
         ]
@@ -147,24 +165,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b698ced2f040017",
+  "active": "4dcc7fe8602989d2",
   "lastOpenFiles": [
+    "Calculus/ch11 Infinite Sequences and Series/10 Taylor and Maclaurin Series.md",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082520.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082451.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082219.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082200.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082149.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082125.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082113.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082053.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082041.png",
+    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082003.png",
+    "Calculus/ch11 Infinite Sequences and Series/09 Representations of Functions as Power Series.md",
+    "Calculus/ch11 Infinite Sequences and Series/08 Power Series.md",
+    "Conda Commands.md",
+    "Git Commands.md",
     "SSC/history.md",
-    "SSC/images/Pasted image 20240923162403.png",
     "SSC/history - 副本.md",
-    "SSC/images/Pasted image 20240923144702.png",
     "Windows Terminal Commands.md",
     "Linux Commands.md",
-    "Calculus/ch11 Infinite Sequences and Series/08 Power Series.md",
-    "Calculus/ch11 Infinite Sequences and Series/10 Representations of Functions as Power Series.md",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923081128.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923081041.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923081022.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073523.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073342.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073236.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073225.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240923073008.png",
     "Calculus/ch11 Infinite Sequences and Series/06 Absolute Convergence and the Ratio and Root Tests.md",
     "Calculus/ch11 Infinite Sequences and Series/07 Strategy for Testing Series.md",
     "Calculus/ch11 Infinite Sequences and Series/05 Alternating Series.md",
@@ -173,7 +194,6 @@
     "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
     "Calculus/ch11 Infinite Sequences and Series/04 The Comparison Tests.md",
     "Vim Commands.md",
-    "Git Commands.md",
     "Powershell Commands.md",
     "blog.md",
     "recommendSite.md",
@@ -182,8 +202,6 @@
     "2024/July/2024-07-24.md",
     "2024/July/2024-07-29.md",
     "2024/July/2024-07-31.md",
-    "2024-08-08.md",
-    "2024/July/2024-07-01.md",
     "SSC/images",
     "SSC",
     "Calculus/ch11 Infinite Sequences and Series/images",
