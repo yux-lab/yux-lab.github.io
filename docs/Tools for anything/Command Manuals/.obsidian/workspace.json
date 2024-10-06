@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9ca5b7a45eb2f014",
+        "id": "321d332c20a7e2ac",
         "type": "tabs",
         "children": [
           {
-            "id": "4dcc7fe8602989d2",
+            "id": "9155a0f4bd3ae6d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
+                "file": "LLM on Jetson/getting started.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e6339331ddf2eb5a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cfe220bace4e8af9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
-                "mode": "preview",
                 "source": true
               }
             }
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5,
-    "collapsed": true
+    "width": 202.5
   },
   "right": {
     "id": "7557bcfb297e1979",
@@ -104,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
+                "file": "LLM on Jetson/getting started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
+                "file": "LLM on Jetson/getting started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md"
+                "file": "LLM on Jetson/getting started.md"
               }
             }
           }
@@ -165,9 +146,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4dcc7fe8602989d2",
+  "active": "9155a0f4bd3ae6d9",
   "lastOpenFiles": [
+    "LLM on Jetson/llama cpp.md",
+    "LLM on Jetson/prepare.md",
+    "LLM on Jetson/getting started.md",
+    "深度学习小本本.md",
+    "blog.md",
+    "要数据集模板/要数据集模板.md",
+    "ubuntu玄学问题.md",
+    "notes.md",
+    "SSC/kitti api & mayavi 可视化.md",
+    "recommendSite.md",
+    "palm",
+    "SSC/history.md",
+    "Untitled.md",
+    "jetson nano/dlinao.md",
+    "jetson nano/images/Pasted image 20241006175040.png",
+    "jetson nano/images",
+    "jetson nano",
+    "Calculus/ch11 Infinite Sequences and Series/09 Representations of Functions as Power Series.md",
     "Calculus/ch11 Infinite Sequences and Series/10 Taylor and Maclaurin Series.md",
+    "Calculus/ch11 Infinite Sequences and Series/08 Power Series.md",
+    "palm/掌纹识别.md",
+    "Conda Commands.md",
+    "Linux Commands.md",
+    "路面检测/code.md",
+    "路面检测/路面缺陷检测.md",
+    "路面检测",
+    "要数据集模板/images/Pasted image 20240928203452.png",
+    "要数据集模板/images",
+    "要数据集模板",
+    "images/c9a7a4618bbe34f67ef269c0e811ed5.png",
+    "images",
+    "Powershell Commands.md",
+    "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
+    "Calculus/ch11 Infinite Sequences and Series/02 Series.md",
     "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082520.png",
     "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082451.png",
     "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082219.png",
@@ -175,43 +189,11 @@
     "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082149.png",
     "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082125.png",
     "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082113.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082053.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082041.png",
-    "Calculus/ch11 Infinite Sequences and Series/images/Pasted image 20240926082003.png",
-    "Calculus/ch11 Infinite Sequences and Series/09 Representations of Functions as Power Series.md",
-    "Calculus/ch11 Infinite Sequences and Series/08 Power Series.md",
-    "Conda Commands.md",
     "Git Commands.md",
-    "SSC/history.md",
     "SSC/history - 副本.md",
-    "Windows Terminal Commands.md",
-    "Linux Commands.md",
-    "Calculus/ch11 Infinite Sequences and Series/06 Absolute Convergence and the Ratio and Root Tests.md",
-    "Calculus/ch11 Infinite Sequences and Series/07 Strategy for Testing Series.md",
-    "Calculus/ch11 Infinite Sequences and Series/05 Alternating Series.md",
-    "Calculus/ch11 Infinite Sequences and Series/03 The Integral Test and Estimates of Sums.md",
-    "Calculus/ch11 Infinite Sequences and Series/02 Series.md",
-    "Calculus/ch11 Infinite Sequences and Series/01 Sequences.md",
-    "Calculus/ch11 Infinite Sequences and Series/04 The Comparison Tests.md",
-    "Vim Commands.md",
-    "Powershell Commands.md",
-    "blog.md",
-    "recommendSite.md",
-    "ubuntu玄学问题.md",
-    "深度学习小本本.md",
-    "2024/July/2024-07-24.md",
-    "2024/July/2024-07-29.md",
-    "2024/July/2024-07-31.md",
     "SSC/images",
     "SSC",
     "Calculus/ch11 Infinite Sequences and Series/images",
-    "Calculus/ch11 Infinite Sequences and Series",
-    "images",
-    "Calculus/ch09 Differential Equations/images",
-    "Calculus/ch09 Differential Equations",
-    "d2l/19 卷积层",
-    "d2l/12 权重衰退",
-    "d2l/11 模型选择 + 过拟合和欠拟合/images",
     "Untitled.canvas"
   ]
 }

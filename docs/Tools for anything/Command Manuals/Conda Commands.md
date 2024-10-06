@@ -1,3 +1,59 @@
+### conda 创建虚拟环境时带有 base 环境的包
+```bash
+# 这两个命令的输出应该指向 Conda 虚拟环境的路径，而不是系统的全局路径。
+which python
+which pip
+
+(base) jie@wqt:~$ which python /home/user/miniconda3/bin/python 
+(base) jie@wqt:~$ which pip /home/user/.local/bin/pip
+#从你的输出来看，你当前在 `base` 环境下。`python` 路径是指向 `Miniconda` 的，而 `pip` 却是指向你用户目录下的 `~/.local/bin`，这意味着你的 `pip` 可能是系统级的，而不是 `conda` 环境中的 `pip`。
+
+conda install pip
+which pip
+#输出应该指向类似 `/home/jie/miniconda3/bin/pip` 的路径，而不是 `~/.local/bin/pip`。如果仍然不对，可以尝试使用以下命令清理 `~/.local/bin` 下的全局 `pip` 安装：
+rm ~/.local/bin/pip
+
+# 再次确认
+which python
+which pip
+
+# 两者路径应该都在你的 Conda 环境下，比如 `/home/user/miniconda3/envs/myenv/bin/`。
+```
+
+
+### conda 安装包
+```bash
+conda install -c conda-forge pexpect
+```
+
+### conda list 和pip list
+可以共用，注意是否有重叠的版本冲突
+
+### 已经有 yml 文件如何快速配置虚拟环境
+```bash
+# 找到yml文件，直接创建，环境名根据文件内容来设置
+# 据说不用修改 prefix  字段，待测试
+conda env create -f environment.yml
+```
+
+
+
+### 安装 pytorch
+[Fetching Title#g4ca](https://pytorch.org/get-started/previous-versions/)
+
+
+当遇到 `error: command '/usr/lib/cuda/bin/nvcc' failed: No such file or directory`
+```bash
+# 找实际路径
+which nvcc
+
+# 设置环境变量
+# CUDA environment variables 
+export PATH=/usr/local/cuda-11.7/bin${PATH:+:${PATH}} 
+export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export CUDA_HOME=/usr/local/cuda-11.7
+```
+
 ### 导出环境
 ```bash
 conda env export > environment.yaml
@@ -10,7 +66,7 @@ conda remove -n name --all -y
 
 ### 创建
 ```bash
-conda create -n name python=3.8(optional) -y
+conda create -n name python=3.8 -y
 ```
 
 ### 激活
@@ -31,7 +87,9 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ### 安装requirements.txt
 -r的意思是“从给定的文件中逐行读取并安装包”
 ```bash
-pip install -r requirements.txt
+pip install -r 
+
+requirements.txt
 ```
 
 ### 查看路径以及虚拟环境列表

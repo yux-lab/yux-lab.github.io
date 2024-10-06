@@ -90,45 +90,67 @@ $$
 
 
 三明治定理： $\mathrm{If~}a_n\leqslant b_n\leqslant c_n\mathrm{~for~}n\geqslant n_0\mathrm{~and}\lim_{n\to\infty}a_n=\lim_{n\to\infty}c_n=L,\mathrm{then}\lim_{n\to\infty}b_n=L$
-![](images/Pasted%20image%2020240918085547.png)
+
 ![](images/Pasted%20image%2020240918085600.png)
 
 定理 6
-![](images/Pasted%20image%2020240918085633.png)
+
+$$
+\text{If}\lim\limits_{n\to\infty}\big|a_n\big|=0,\text{then}\lim\limits_{n\to\infty}a_n=0
+$$
+
 
 定理 6 的题型
 ![](images/Pasted%20image%2020240918090416.png)
 ![](images/Pasted%20image%2020240918090425.png)
 
 
-定理 7
+定理 7：
 如果将连续函数应用于收敛序列的项，则结果也是收敛的。
-如果一个序列收敛到 L，且 f 是在 L 处连续的函数，那么应用 f 得到的新序列也收敛，并且它的极限等于 f(L)。
-![](images/Pasted%20image%2020240918090441.png)
 
-定理 7 的应用
-![](images/Pasted%20image%2020240918090954.png)
+如果一个序列收敛到 $L$，且 $f$ 是在 $L$ 处连续的函数，那么应用 $f$ 得到的新序列也收敛，并且它的极限等于 $f(L)$。
+
+$$
+\lim_{n\to\infty}f(a_n)=f(L)
+$$
+> 可以先计算序列的极限，然后再应用函数，而不是直接求解复杂的函数应用之后的序列极限。
+> ![](images/Pasted%20image%2020240918090954.png)
 
 
 ![](images/Pasted%20image%2020240918092636.png)
-令 b=r
-![](images/Pasted%20image%2020240918092744.png)
+令 $b=r$，$n=x$
 
-![](images/Pasted%20image%2020240918092812.png)
+$$
+\lim\limits_{n\to\infty}r^n=\begin{cases}\infty&\text{if } r>1\\0&\text{if } 0<r<1\end{cases}
+$$
+
+观察到：
+$$
+\lim\limits_{n\to\infty}1^n=1\quad\text{and}\quad\lim\limits_{n\to\infty}0^n=0
+$$
+
+如果 $-1< r < 0$，那么 $0 < |r| < 1$，所以：
+
+$$
+\lim\limits_{n\to\infty}\left|r^n\right|=\lim\limits_{n\to\infty}\left|r\right|^n=0
+$$
 
 ![](images/Pasted%20image%2020240918092851.png)
 
-总结以上
-![](images/Pasted%20image%2020240918092937.png)
+总结以上：当 $-1 < r ≤ 1$ 时序列 $r^n$ 收敛，而对于 r 的其它值发散。
 
-定义 10
-单调性
+$$
+\lim\limits_{n\to\infty}r^n=\begin{cases}0&\text{if} -1<r<1\\1&\text{if } r=1\end{cases}
+$$
+
+定义 10：单调性
+
 ![](images/Pasted%20image%2020240918092941.png)
 
-定义 11
-上确界和下确界
+定义 11：上确界和下确界
+
 ![](images/Pasted%20image%2020240918093753.png)
+
 ![](images/Pasted%20image%2020240918093808.png)
 
-第 12
-单调序列定理每个有界的单调序列都是收敛的
+第 12：单调序列定理每个有界的单调序列都是收敛的

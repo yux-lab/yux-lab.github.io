@@ -10,10 +10,12 @@ ssh root@192.168.10.135 -p
 #scp D:\aaa.txt（windows文件路径） root@192.168.10.135:/root（LInux目标路径）
 scp -P 2222 .\data_3d_raw.sqf vipuser@ip:/mnt/data/SGN_Dataset_ZIP
 
+# -l 8192 加上限速
+scp -r -P 22 -l 8192 "D:\Yux\datasets\SemanticKITTI\" username@ip:/mnt/data/
 
 #使用 `-r` 选项的情况：适用于文件夹，递归传输
 #scp -r D:\aaa root@192.168.10.135:/root
-scp -r -P 2222 .\data_3d_raw.sqf vipuser@js1.ip/mnt/data/SGN_Dataset_ZIP
+scp -r -P 2222 .\data_3d_raw.sqf vipuser@ip/mnt/data/SGN_Dataset_ZIP
 
 scp -r -P 22 "D:\Yux\datasets\SemanticKITTI\" username@ip:/mnt/data/Yux
 ```

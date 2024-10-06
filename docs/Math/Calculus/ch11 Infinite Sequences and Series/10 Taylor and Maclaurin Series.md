@@ -84,7 +84,8 @@ and its radius of convergence.
 ![](images/Pasted%20image%2020240926081350.png)
 如果我们让：
 ![](images/Pasted%20image%2020240926081400.png)
-那么 Rn(x) 称为泰勒级数的余项。如果我们能证明 ![](images/Pasted%20image%2020240926081431.png)
+那么 Rn(x) 称为泰勒级数的余项。如果我们能证明 
+![](images/Pasted%20image%2020240926081431.png)
 ，那么就有：
 ![](images/Pasted%20image%2020240926081448.png)
 

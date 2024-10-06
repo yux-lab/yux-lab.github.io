@@ -1,4 +1,47 @@
 
+### Directory not empty
+```bash
+# 找到该目录的隐藏文件
+ls /mnt/data
+
+lsof /mnt/data/.fuse_hidden00051d20000000b3 
+
+# 找到对应进程号
+sudo kill -9 439914
+
+rm -rf data/
+```
+
+### 创建软连接
+```bash
+ln -s [SemanticKITTI root] ./kitti
+```
+
+### 解压文件
+```bash
+# rar
+sudo apt-get install unrar
+
+unrar x OriginalImages.rar Tongji/
+
+# zip
+sudo apt-get install unzip
+
+unzip OriginalImages.zip
+
+# -d 后是目标目录。
+unzip labels.zip -d ./dataset/
+
+# 7z
+sudo apt-get install p7zip-full
+
+7z x 'IITD Palmprint V1.7z' -o'/mnt/data/Yux/palm/dataset/IITD/IITD Palmprint V1'
+```
+
+### 安装 cuda
+[CUDA Toolkit Archive | NVIDIA Developer](https://developer.nvidia.com/cuda-toolkit-archive)
+
+
 ### 检查 python 版本
 ```bash
 which python
@@ -219,4 +262,58 @@ pkill python
 
 ```
 dmesg | grep -i "killed process"
+```
+
+
+好的，让我们逐一解释 `CUDA Toolkit`、`nvidia-smi` 和 `nvcc --version` 的作用，以及它们的安装顺序。
+
+### 1. CUDA Toolkit
+**作用**：
+- **CUDA Toolkit** 编写和编译 CUDA C/C++ 代码。包括编译器 (`nvcc`)、库（如 cuBLAS、cuFFT）、头文件、示例代码和文档。
+- **主要用途**：用于开发和优化基于 GPU 的应用程序，特别是高性能计算和深度学习应用。
+
+### 2. nvidia-smi
+- **主要用途**：查看 GPU 的状态信息，如驱动版本、CUDA 版本、GPU 使用率、显存使用情况等。
+
+### 3. nvcc --version
+- **nvcc** 是 NVIDIA CUDA C/C++ 编译器，用于编译 CUDA C/C++ 代码。
+- **nvcc --version** 命令用于显示当前安装的 CUDA 编译器的版本信息。
+
+### 安装顺序
+通常情况下，安装顺序如下：
+1. **安装 NVIDIA 驱动程序**：
+2. **安装 CUDA Toolkit**：
+3. **验证安装**：
+     ```bash
+     nvidia-smi
+     ```
+     ```bash
+     nvcc --version
+     ```
+
+### 总结
+1. **安装 NVIDIA 驱动程序**：确保 GPU 能够正常工作。
+2. **安装 CUDA Toolkit**：提供 CUDA 编程所需的工具和库。
+3. **配置环境变量**：确保系统能够找到 CUDA 工具和库。
+4. **验证安装**：使用 `nvidia-smi` 和 `nvcc --version` 命令验证安装是否成功。
+
+
+### AttributeError: module ‘numpy‘ has no attribute ‘int‘.
+某些库没有特定的方法
+1. 改源码
+2. 降级/升级版本
+
+### Depends：xxx but it is not going to be installed
+```shell
+aptitude
+
+sudo apt-get isntall libvtk5-dev
+
+#如果安装不上，则用另一个包管理器
+sudo apt-get install aptitude
+
+sudo aptitude install libvtk5-dev
+
+#如果出现第一个，则输入n，后面y
+Accept this solution? [Y/n/q/?]n
 ```
