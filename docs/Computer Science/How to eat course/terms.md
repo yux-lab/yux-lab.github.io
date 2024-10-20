@@ -4,5 +4,5 @@ PPT、Handout、note、
 
 以[6.102: Software Construction (mit.edu)](https://web.mit.edu/6.031/www/sp23/)解读
 
-善用谷歌 github 有前人的成果，无论哪一门国外大学网课
+善用谷歌，github 有前人的成果，无论哪一门国外大学网课
 以及YouTube和b站 搜索框 评论区

@@ -1,4 +1,24 @@
 
+### 查看发行版信息
+```bash
+lsb_release -a
+```
+
+### 当报错时打印日志
+```bash
+#显示最近的内核消息。诊断最近发生的系统问题或者检查新插入硬件的状态
+dmesg | tail
+
+# `/var/log/syslog` 文件通常包含系统的常规日志信息，包括应用程序和服务的日志。
+cat /var/log/syslog | tail
+```
+
+
+### Linux所有命令失效解决办法
+```bash
+export PATH=/usr/bin:/usr/sbin:/bin:/sbin:/usr/X11R6/bin
+```
+
 ### Directory not empty
 ```bash
 # 找到该目录的隐藏文件
@@ -62,12 +82,12 @@ zip -r /mnt/data2/data2.zip /mnt/data2/* -x /mnt/data2/lost+found/*
 history | tail -n 50
 ```
 
-### `swapfile` 扩展到 20GB
+### `swapfile` 扩展到 200GB
 ```bash
 #禁用正在使用的 swap 文件：
 sudo swapoff /swapfile
 
-#增加 Swap 文件大小到 20GB
+#增加 Swap 文件大小到 200GB
 sudo fallocate -l 200G /mnt/data1/swapfile
 
 #设置文件权限
@@ -263,6 +283,31 @@ pkill python
 ```
 dmesg | grep -i "killed process"
 ```
+
+### vscode 远程ubuntu
+```bash
+# windows生成公钥，一路回车
+ssh-keygen
+
+# 将C:\Users\user/.ssh/id_rsa.pub中的内容复制到ubuntu的/home/user/.ssh/authorized_keys中，如没有则创建
+cd ~
+mkdir .ssh
+cd .ssh
+vi authorized_keys
+
+# 添加权限
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+
+# 重启ssh
+sudo systemctl restart sshd
+```
+
+在配置 `config` 文件可添加多台主机
+
+在vscode 下载 Remote 插件
+[使用 SSH 和 Visual Studio Code 在远程机器上开发 - VSCode 中文](https://vscode.js.cn/docs/remote/ssh)
+[Windows 下 VS Code 远程连接 Ubuntu 并配置免密登录\_vscode ubuntu免密登录-CSDN博客](https://blog.csdn.net/qq_42815188/article/details/128736694)
 
 
 好的，让我们逐一解释 `CUDA Toolkit`、`nvidia-smi` 和 `nvcc --version` 的作用，以及它们的安装顺序。
