@@ -1,3 +1,37 @@
+## 解/压缩文件夹
+```shell
+#压缩
+zip -r output.zip folder_name
+
+#解压
+unzip output.zip -d destination_folder
+```
+
+
+
+## 两台 ubuntu 传文件
+```bash
+# 确保接收端有文件夹的权限
+#查看权限，输出结果则为哪个用户组拥有权限
+ls -ld /mnt/data/
+ls -l /mnt/data/
+
+# 改变目录的所有者和权限：
+sudo chown -R vipuser:vipuser /mnt/data/Yux/palm
+sudo chmod -R 755 /mnt/data/Yux/palm
+
+# 再次执行第一条检查
+
+#发送端通过rsync断点传输
+rsync -avz --progress --delete --rsh='ssh -p 22' /path/to/source folder/ username@ip:/path/to/destination folder/ 
+
+# 挂后台（未解决密码问题。可以通过ssh密钥对；或者powershell）
+nohup rsync -avz --progress --delete --rsh='ssh -p 22' /path/to/source folder/  username@ip:/path/to/destination folder/  > my_rsync.log 2>&1 &
+
+#实时打印日志
+tail -f my_rsync.log
+```
+
 
 ### 查看发行版信息
 ```bash
