@@ -61,7 +61,7 @@ int main(void)
 }
 ```
 
-```
+```c
 #include <stdbool.h>
 #include <stdio.h>
 

@@ -5,3 +5,7 @@
 [Jupyter Notebook Viewer](https://nbviewer.org/github/zlotus/notes-linear-algebra/tree/master/)
 
 [马同学](https://www.matongxue.com/parts/2228/)
+
+[矩阵乘法](https://www.shuxuele.com/algebra/matrix-multiplying.html)
+
+[Algebra Index](https://www.mathsisfun.com/algebra/index.html)

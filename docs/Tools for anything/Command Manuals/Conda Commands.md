@@ -1,3 +1,13 @@
+### 迁移环境的 python 指向问题
+```shell
+(crddc2022) wheeltec@wheeltec:~/archiconda3/envs/crddc2022$ pip list
+-bash: /home/wheeltec/archiconda3/envs/crddc2022/bin/pip: /home/jetson/archiconda3/envs/crddc2022/bin/python3.8: bad interpreter: No such file or directory
+
+#修改第一行为实际路径
+vi /home/wheeltec/archiconda3/envs/crddc2022/bin/pip
+```
+
+
 ### conda 创建虚拟环境时带有 base 环境的包
 ```bash
 # 这两个命令的输出应该指向 Conda 虚拟环境的路径，而不是系统的全局路径。

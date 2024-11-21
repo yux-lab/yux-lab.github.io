@@ -2,7 +2,7 @@
 
 ### 风扇命令
 ```shell
-echo 50 | sudo tee /sys/devices/pwm-fan/target_pwm
+echo 30 | sudo tee /sys/devices/pwm-fan/target_pwm
 ```
 
 ### 监控NVIDIA Jetson的的运行状态和使用情况

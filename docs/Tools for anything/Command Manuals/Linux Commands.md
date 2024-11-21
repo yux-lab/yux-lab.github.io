@@ -1,5 +1,9 @@
+[Linux 如何保持 Nvidia 驱动稳定 - V2EX](https://www.v2ex.com/t/1087349#reply13)
+
 ## 解/压缩文件夹
 ```shell
+sudo apt-get install zip unzip
+
 #压缩
 zip -r output.zip folder_name
 
