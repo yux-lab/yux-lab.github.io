@@ -1,0 +1,2 @@
+如何管理本地和虚拟环境的 pip 路径问题
+[python - How can I correctly install multiple non-package Distribute/virtualenv/pip ecosystems on Ubuntu? - Stack Overflow](https://stackoverflow.com/questions/6812207/how-can-i-correctly-install-multiple-non-package-distribute-virtualenv-pip-ecosy)

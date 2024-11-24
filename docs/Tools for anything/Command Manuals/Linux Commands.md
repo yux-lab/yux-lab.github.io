@@ -1,3 +1,25 @@
+
+
+
+## 将 `sdb2` 分区挂载到 `/mnt/data` 目录
+```shell
+sudo mount /dev/sdb2 /mnt/data
+
+df -h
+
+# 设置自动挂载
+
+#获取uid
+sudo blkid /dev/sdb2
+
+#打开
+sudo vi /etc/fstab
+
+#末尾添加；根据实际情况修改
+UUID=1234-5678-90ab-cdef /mnt/data ext4 defaults 0 2
+```
+
+
 [Linux 如何保持 Nvidia 驱动稳定 - V2EX](https://www.v2ex.com/t/1087349#reply13)
 
 ## 解/压缩文件夹
